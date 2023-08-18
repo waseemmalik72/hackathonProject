@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,300;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #d6e3ec;
+}
+
+/* Navbar Start Here */
+
+.navbar {
+    padding: 20px;
+    background-color: #24252a;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: -10px 5px 9px gray;
+}
+
+.list-items {
+    display: flex;
+    list-style: none;
+    margin: 10px 0;
+    color: #ffff;
+}
+
+.items {
+    margin-right: 10px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.items:hover {
+    border-bottom: 2px solid #e7ecf1;
+    font-size: 18px;
+}
+
+.marque {
+    padding: 0 20px;
+    width: 200px;
+    font-size: 20px;
+    color: #ffff;
+}
+
+marque {
+    padding-top: 2px;
+
+}
+
+.search-input {
+    padding: 9px;
+    background: transparent;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffff;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-btn {
+    padding: 10px 24px;
+    background: #0f8db5;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-left: 10px;
+    color: #ffff;
+}
+
+.search-btn:hover {
+    background-color: #005a76;
+    cursor: pointer;
+}
